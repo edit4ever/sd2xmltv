@@ -83,7 +83,7 @@ class Sd2Xmltv:
         if self._enable_filter:
             cf = FileChannelFilter(config_path=self._filter_path, lineup_map_list=lineup_map_list)
             channel_filter.add_channel_filter(cf)
-        
+
         station_ids = [station.station_id for station in lineup_map_list.unique_stations(channel_filter)]
 
         self._logger.info(u"Getting schedule hashes...")
