@@ -5,7 +5,7 @@
        provider-name="astrilchuk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-
+    <import addon="script.module.dateutil" version="2.4.2"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides></provides>
