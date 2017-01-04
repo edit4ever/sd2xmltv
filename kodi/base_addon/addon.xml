@@ -12,12 +12,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Schedules Direct xmltv grabber</summary>
-    <description>
-Schedules Direct xmltv grabber using the JSON API
-    </description>
-    <disclaimer>
-
-    </disclaimer>
+    <description>Schedules Direct xmltv grabber using the JSON API</description>
+    <disclaimer></disclaimer>
     <platform>all</platform>
   </extension>
 </addon>

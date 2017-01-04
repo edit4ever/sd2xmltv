@@ -27,7 +27,7 @@ if [ -f six-${SIX_VERSION}.tar.gz ]
     rm six-*
     wget ${SIX_URI}
 fi
-# 
+#
 # unpack the preqs
 #
 [ -f six-${SIX_VERSION}.tar.gz -a \
@@ -57,6 +57,8 @@ cp ../*.py tools.module.sd2xmltv/
 cp ../logging.cfg tools.module.sd2xmltv/
 mkdir tools.module.sd2xmltv/libhdhomerun/
 cp -r ../libhdhomerun/* tools.module.sd2xmltv/libhdhomerun/
+mkdir tools.module.sd2xmltv/utils/
+cp -r ../utils/* tools.module.sd2xmltv/utils/
 #  add the license files to keep everything on the up-n-up
 cp ../LICENSE  tools.module.sd2xmltv/LICENSE-sd2xmltv
 cp unpack/six-${SIX_VERSION}/LICENSE tools.module.sd2xmltv/LICENSE-six
